@@ -25,6 +25,7 @@ public class Product {
 	@Column(name = "Product_id")
 	private Long id;
 	
+	@Column(name = "product_name")
 	private String name;
 	private Integer price;
 	private Date startDate;
